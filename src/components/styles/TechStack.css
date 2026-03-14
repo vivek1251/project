@@ -1,0 +1,25 @@
+.techstack {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.tech-canvas {
+    width: 100% !important;
+    height: 100vh !important;
+    display: block !important;
+}
+
+@media (max-width: 768px) {
+    .techstack {
+        width: 100%;
+        height: 60vh;
+        display: block !important;
+    }
+
+    .tech-canvas {
+        width: 100% !important;
+        height: 60vh !important;
+        display: block !important;
+    }
+}
