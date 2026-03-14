@@ -13,20 +13,24 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/images/docker.webp",
+  "/images/kubernetes.webp",
+  "/images/github.webp",
+  "/images/jenkins.webp",
+  "/images/linux.webp",
+  "/images/python.webp",
+  "/images/aws.webp",
+  "/images/terraform.webp",
+  "/images/html.webp",
+  "/images/tcpip.webp",
+  "/images/cicd.webp",
+  "/images/git.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
-const spheres = [...Array(30)].map(() => ({
+const spheres = [...Array(40)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
 
@@ -167,7 +171,7 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="techstack">
+    <div className="techstack" id="techstack">
       <h2> My Techstack</h2>
 
       <Canvas

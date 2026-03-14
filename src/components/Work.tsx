@@ -5,34 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "CI/CD Pipeline",
+    category: "DevOps / AWS",
+    tools: "AWS CodePipeline, CodeBuild, Elastic Beanstalk, S3, IAM, Node.js",
+    image: "/images/cicd-pipeline.webp",        // 👈 change this
+    link: "https://github.com/vivek1251",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "MYAPP — React + Flask Auto-Deploy",
+    category: "Full Stack / DevOps",
+    tools: "React, Flask, Supabase, GitHub Actions, Vercel, Render",
+    image: "/images/react-flask.webp",           // 👈 change this
+    link: "https://github.com/vivek1251",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "Twitter Sentiment Analysis",
+    category: "Machine Learning / NLP",
+    tools: "Python, NLTK, TextBlob, Scikit-learn...",
+    image: "/images/twitter-sentiment.webp",     // 👈 change this
+    link: "https://github.com/vivek1251/TWITTER-SENTIMENT-ANALYSIS",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "Malware Detection System",
+    category: "Machine Learning / Cybersecurity",
+    tools: "Python, Scikit-learn, Random Forest...",
+    image: "/images/malware-detection.webp",     // 👈 change this
+    link: "https://github.com/vivek1251/MALWARE-ANALYSIS",
   },
 ];
 
