@@ -5,31 +5,31 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CI/CD Pipeline",
-    category: "DevOps / AWS",
-    tools: "AWS CodePipeline, CodeBuild, Elastic Beanstalk, S3, IAM, Node.js",
-    image: "/images/cicd-pipeline.webp",        // 👈 change this
+    title: "Self-Healing CI/CD Pipeline",
+    category: "DevOps / AI / AWS",
+    tools: "GitHub Actions, Docker, AWS EC2, Gemini AI, Flask, Slack, pytest",
+    image: "/images/self-healing-cicd.webp",
+    link: "https://github.com/vivek1251/self-healing-cicd",
+  },
+  {
+    title: "DevSecOps Pipeline",
+    category: "DevOps / Security",
+    tools: "GitHub Actions, SonarQube, OWASP ZAP, Docker, AWS EC2, Gitleaks, Bandit, Trivy",
+    image: "/images/devsecops-pipeline.webp",
     link: "https://github.com/vivek1251",
   },
   {
-    title: "MYAPP — React + Flask Auto-Deploy",
-    category: "Full Stack / DevOps",
-    tools: "React, Flask, Supabase, GitHub Actions, Vercel, Render",
-    image: "/images/react-flask.webp",           // 👈 change this
+    title: "AI-Powered Root Cause Analysis System",
+    category: "DevOps / AI / Observability",
+    tools: "Flask, Loki, Prometheus, Grafana, Phi-4-mini, Ollama, Promtail",
+    image: "/images/ai-rca.webp",
     link: "https://github.com/vivek1251",
-  },
-  {
-    title: "Twitter Sentiment Analysis",
-    category: "Machine Learning / NLP",
-    tools: "Python, NLTK, TextBlob, Scikit-learn...",
-    image: "/images/twitter-sentiment.webp",     // 👈 change this
-    link: "https://github.com/vivek1251/TWITTER-SENTIMENT-ANALYSIS",
   },
   {
     title: "Malware Detection System",
     category: "Machine Learning / Cybersecurity",
-    tools: "Python, Scikit-learn, Random Forest...",
-    image: "/images/malware-detection.webp",     // 👈 change this
+    tools: "Python, Scikit-learn, Random Forest",
+    image: "/images/malware-detection.webp",
     link: "https://github.com/vivek1251/MALWARE-ANALYSIS",
   },
 ];
